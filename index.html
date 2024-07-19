@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranga Sheshadri - AIO Debit Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            background-image: url("images/aiobulid.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            color: darkslategray;
+        }
+        h1, h2, h3 {
+            color: orangered;
+        }
+        header {
+            background-color: silver;
+            color: ghostwhite;
+            padding: 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: orangered;
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #4caf50;
+            border-radius: 1px;
+        }
+        .container {
+            padding: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+			
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(245, 245, 245, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            margin-bottom: 1rem;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .content div {
+            flex: 1 1 calc(50% - 1rem);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            nav {
+                flex-wrap: wrap;
+            }
+            nav a {
+                margin: 0.5rem 0;
+            }
+        }
+        .animate-float {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 2s, transform 2s;
+        }
+        .animate-draft {
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: opacity 2s, transform 2s;
+        }
+        .visible {
+            opacity: 1;
+            transform: translateY(0) !important;
+        }
+		body section{
+			background-color: silver;
+		}
+    </style>
+</head>
+<body>
+    <header class="animate__animated animate__fadeInDown">
+        <h1>AIO DEBIT-CARD</h1>
+        <p>Developer | Ranga Sheshadri</p>
+    </header>
+    
+    <nav>
+        <a href="#AIO" class="scroll-to">INTRODUCTION</a>
+        <a href="#FEATURES" class="scroll-to">FEATURES</a>
+        <a href="#EXISTING" class="scroll-to">EXISTING</a>
+        <a href="#gallery" class="scroll-to">INTRODUCING</a>
+        <a href="#contact" class="scroll-to">WHY AIO?</a>
+        <a href="#achievements" class="scroll-to">ACHIEVEMENTS</a>
+        <a href="#ABOUT" class="scroll-to">ABOUT ME</a>
+    </nav>
+    
+    <div class="container">
+        <section id="AIO"><br>
+            <h1>AIO (ALL-IN-ONE) DEBIT-CARD</h1>
+            <div class="content">
+                <div class="animate-float">
+                   <p>In today’s modern technology, the AIO Debit Card represents a significant advancement in simplifying money management. The AIO Debit Card access<b> multiple bank accounts into a single card.</b> This innovation streamlines banking for users, offering a more straightforward and convenient financial experience.</p>
+                    <p>One of its key security features is OTP (One-Time Password) validation, which protects against unauthorized acceses and ensures secure transactions. The primary objective of this project is to develop a smart debit card system that enhances user control over their finances while maintaining high security standards. This system promises to simplify banking processes.</p>
+                </div>
+                <div class="animate-float">
+                    <img src="images/swip.jpg" alt="AIO Debit Card">
+                </div>
+            </div>
+        </section>
+
+        <section id="FEATURES"><br>
+            <h2>ALL IN ONE DEBIT-CARD FEATURES</h2>
+            <div class="content">
+                <div class="animate-float">
+                    <h3><b>PRIMARY ACCOUNT [main one]</b></h3>
+                    <ul class="animate-draft">
+                        <li>Continue with PRIMARY ACCOUNT</li>
+                        <li>For primary access with only PIN</li>
+                        <li>Direct access primary to wifi transactions</li>
+                        <li>OTP Alert for 10K above transactions</li>
+                        <li>Select Statement</li>
+                        <li>All in one mini-statement</li>
+                    </ul>
+                </div>
+                <div class="animate-float">
+                    <img src="images/aio wifi.jpg" alt="wifi img">
+                </div>
+                <div class="animate-float">
+                    <h3><b>SELECT ANY BANK-ACCOUNT [multiple]</b></h3>
+                    <ul class="animate-draft">
+                        <li>Multi-bank account integration</li>
+                        <li>To Access inside OTP Mandatory</li>
+                        <li>Instant account Switching</li>
+                        <li>All accounts handle with One PIN</li>
+                        <li>OTP Alert for 10K above transactions</li>
+                        <li>Select Statement</li>
+                        <li>All in one mini-statement</li>
+                    </ul>
+                </div>
+                <div class="animate-float">
+                    <img src="images/AIOINTRO.png" alt="AIO intro img">
+                </div>
+            </div>
+        </section>
+
+        <section id="EXISTING"><br>
+            <h2>EXISTING SYSTEM</h2>
+            <div class="content">
+                <div class="animate-float">
+                    <img src="images/img14.png" alt="AIO img14" width="410" height="410">
+                </div>
+                <div class="animate-float">
+                    <p>As of January 2023, there were over 945 million active debit cards in India, and debit cards have become an essential part of everyday life.</p>
+                    <ul class="animate-draft">
+                        <li>Multiple Cards</li>
+                        <li>Multiple Pins</li>
+                        <li>High Costs</li>
+                        <li>Security Risks</li>
+                        <li>Plastic Waste</li>
+                        <li>Complex Management</li>
+                        <li>Limited Flexibility</li>
+                        <li>Lack of Integration</li>
+                        <li>Poor User Experience</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery"><br>
+            <h2>AIO INTRODUCING</h2>
+            <div class="content">
+                <div class="animate-float">
+                    <img src="images/otp-img.png" alt="otp msg img">
+                    <h3>SECURED WITH OTP AUTHENTICATION</h3>
+                </div>
+                <div class="animate-float">
+                    <img src="images/pin img.jpg" alt="AIO pin">
+                    <h3>CONTINUE WITH PRIMARY WITH ONLY PIN</h3>
+                </div>
+				<div>
+                    <img src="images/aioselect.png" alt="Gallery Image 3">
+                    <p style="color: orangered">SELECT-STATEMENT YOU WANT</p>
+                </div>
+                <div>
+                    <img src="images/aio121.jpg" alt="Gallery Image 4">
+                    <p style="color: orangered">ALL ACCOUNTS STATEMENT AT ONCE</p>
+                </div>
+                <div class="animate-float">
+                    <img src="images/accswitch2.jpg" alt="AIO All In One">
+                    <h3>INSTANT ACCOUNT SWITCHING</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact"><br>
+            <h2>WHY AIO DEBIT-CARD?</h2>
+            <div class="content">
+                <div class="animate-float">
+                    <ul class="animate-draft">
+                       
+                        <li>Simplified Wallet Management</li>
+                        <li>Increased debit card users</li>
+                        <li>Cost Efficiency</li>
+                        <li>Environmental Benefits</li>
+                        <li>Improved Security</li>
+                        <li>Instant Account Switching</li>
+                        <li>Integrated Rewards and Benefits</li>
+                        <li>Emergency Card Replacement</li>
+                        <li>User-Friendly Interface</li>
+                        <li>Real-Time Alerts</li>
+                        <li>Better Customer Experience</li>
+                        <li>Innovation and Modernization</li>
+                    
+                    </ul>
+                </div>
+                <div class="animate-float">
+                    <img src="images/aiocard.png" alt="AIO Card">
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements"><br>
+            <h2>ACHIEVEMENTS</h2>
+            <div class="content" >
+                <img class="animate-float" src="images/cardcoins.jpg" alt="Achievements" width="400" height="400">
+				 <div class="animate-float">
+                    <p>Here are some of my notable achievements:</p>
+                    <ul>
+                        <li>Successful Integration: Successfully integrated multiple bank accounts into a single card, simplifying user experience.</li>
+                        <li>Enhanced Security: Implemented advanced security features such as OTP and PIN verification.</li>
+                        <li>Cost Efficiency: Achieved significant cost savings by reducing the need for multiple cards.</li>
+                        <li>Environmental Impact: Reduced plastic waste by consolidating multiple cards into one, contributing to environmental sustainability.</li>
+                        <li>User-Friendly Interface: Developed an intuitive user interface for easy navigation and transaction management.</li>
+                        <li>High Adoption Rate: Achieved high adoption rates among users due to the convenience and benefits offered.</li>
+                        <li>Real-Time Alerts: Implemented real-time transaction alerts and notifications for enhanced security and user awareness.</li>
+                        <li>Innovative Technology: Utilized advanced Java programming to ensure robust performance and security.</li>
+                        <li>Customer Satisfaction: Received positive feedback from users for simplifying their banking experience and enhancing security.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="ABOUT"><br>
+            <h2>ABOUT ME</h2>
+            <div class="content">
+                <div class="animate-float">
+                    <img src="images/rsheshadri.jpeg" alt="Ranga Sheshadri" width="400" height="400">
+                </div>
+                <div class="animate-float">
+                    <blockquote>
+                        I am Ranga Sheshadri, the developer of the AIO Debit Card project. With expertise in full-stack development and a passion for creating innovative solutions, I simplify financial transactions. Committed to excellence and continuous learning, I thrive on solving complex problems and exploring new technologies.
+                        <footer>- RANGA SHESHADRI</footer>
+                    </blockquote>
+                  <!--  <a href="mailto:rsheshadri2323@gmail.com" style="color: orange;">rsheshadri2323@gmail.com</a><br>
+                    Mobile No: <a href="tel:+919703646015" style="color: orange;">+91 9703646015</a><br>
+                    LinkedIn: <a href="https://www.linkedin.com/in/ranga-sheshadri-763681176" target="_blank" style="color: orange;">www.linkedin.com/in/ranga-sheshadri-763681176</a>-->
+					G-mail: <a href="mailto:rsheshadri2323@gmail.com" style="color: orange;">rsheshadri2323@gmail.com</a><br>
+	Contact/WhatsApp: 
+<a href="tel:+919703646015" style="color: orange;">+91 9703646015</a> 
+<a href="https://wa.me/919703646015" target="_blank">
+    <img src="images/whatsapp.png" alt="WhatsApp" style="width: 80px; height: 25px; vertical-align: middle; margin-left: 5px;">
+</a><br>
+LinkedIn: 
+<a href="https://www.linkedin.com/in/ranga-sheshadri-763681176" target="_blank" style="color: orange;">www.linkedin.com/in/ranga-sheshadri-763681176</a>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 AIO DEBIT-CARD. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll for nav links
+        document.querySelectorAll('.scroll-to').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                setTimeout(() => {
+                    targetSection.querySelectorAll('.animate-float, .animate-draft').forEach(element => {
+                        element.classList.add('visible');
+                    });
+                }, 500); // delay to match smooth scroll
+            });
+        });
+
+        // Intersection Observer API to trigger animations when elements are in view
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-float, .animate-draft').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
